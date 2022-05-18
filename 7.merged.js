@@ -8,6 +8,8 @@ for (let el of nums1){
 
 //console.log(arr);
 var array=[...arr,...nums2];
+
+
 //console.log(array)
 
 for(let i=0;i<array.length-1;i++){
