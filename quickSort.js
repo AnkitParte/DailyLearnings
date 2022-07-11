@@ -3,7 +3,7 @@ function quickSort(array){
         return array;
     }
 
-    var pivot=array(array.length-1);
+    var pivot=  array[array.length-1];
 
     var leftArr=[];
     var rightArr=[];
@@ -14,3 +14,7 @@ function quickSort(array){
 
     return [...quickSort(leftArr),pivot,...quickSort(rightArr)];
 }
+
+let arr = [1,9,8,7,6,5,4,3,2];
+arr = quickSort(arr);
+console.log(arr)
