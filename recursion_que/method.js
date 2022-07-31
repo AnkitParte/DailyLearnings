@@ -1,5 +1,5 @@
 
-let arr = [1,2]
+let arr = [1,2,3],n=arr.length
 function main(n,arr){
     let idx =0 ;
     let ans=[];
@@ -16,4 +16,4 @@ function subset(n,idx,arr,temp,ans){
     subset(n,idx+1,arr,[...temp,arr[idx]],ans)
 }
 
-main(2,arr)
+main(n,arr)
