@@ -7,9 +7,9 @@ function powerset(str,idx,curr){
         return;
     }
 
-    
-    powerset(str,idx+1,curr)
     powerset(str,idx+1,curr+str[idx])
+    powerset(str,idx+1,curr)
+    
     
 }
 
