@@ -11,7 +11,7 @@ for(let i=0;i<n;i++){
             arr[j] = temp;
         }
     }
-    //console.log(arr.join(" "))
+    console.log(`Iteration ${i+1} : `,arr.join(" "))
 }
 
-console.log("sorted array : ",arr.join(' '))
+console.log("sorted array is : ",arr.join(' '))
