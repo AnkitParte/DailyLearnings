@@ -2,7 +2,7 @@
 
 let arr = [8,5,9,13,-1,2,0];
 let low = 0;
-let high = arr.length - 1;
+let high = arr.length - 1;//6
 mergesort(arr,low,high);
 console.log("merge sorted array is : ",arr.join(" "))
 
@@ -11,11 +11,11 @@ function mergesort(arr,low,high){
         return;
     }
 
-    let mid = low + Math.floor((high-low)/2);
+    let mid = low + Math.floor((high-low)/2); // 0 + 3 = 3
 
-    mergesort(arr,low,mid);
-    mergesort(arr,mid+1,high);
-    merging(arr,low,mid,high);
+    mergesort(arr,low,mid);//arr,0,3
+    mergesort(arr,mid+1,high);//arr,4,6
+    merging(arr,low,mid,high);//arr,0,3,6
 }
 
 function merging(arr,low,mid,high){
