@@ -37,7 +37,7 @@ function partition(arr,low,high){//[8,5,9,13,-1,2,0],[9,13,8,2,5]
     let temp = arr[i];
     arr[i] = arr[high];
     arr[high] = temp;//[-1,0,9,13,8,2,5]
-
+    console.log(arr.join(" "));
     return i;//1 , 
 }
 

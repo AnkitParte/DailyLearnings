@@ -13,7 +13,7 @@ sorted position and it will going to return the sorted index of pivot.
 
             pivot= 8 then //result [2,3,5,6,8,9]
               8 // swap [2,3,5,6,8,9]
-    [6,3,5,2]   [9]//here an individual element is sorted in itselft.
+    [6,3,5,2]   [9]//here an individual element is sorted in itself.
            ^
            |
            2 // swap [2,3,5,6]

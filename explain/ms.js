@@ -2,7 +2,7 @@
 merge sort 
 divide & conquer
 let arr = [8,5,9,13,-1,2,0];
-what merge sort does ,it divides the while array in to subarray and then merger them in sorted order
+what merge sort does ,it divides the whole array in to subarray and then merger them in sorted order
 so how it does this
 let's see. In our give array it will going to divide it like this
                     [8,5,9,13]                         [-1,2,0]
